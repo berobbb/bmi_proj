@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>BMI CALCULATOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="upper-left">
+                <h1>BMI CALCULATOR</h1><br>
+            </div>
+            <div class="upper-right">
+                <div><img src="./images/imag1.jpg" alt="" height="80px" id="image"></div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-left">
+                <img src="./images/pirate-2123313_1280.png" alt="" height="400px">
+            </div>
+            <div class="middle-right">
+                <div class="one">
+                    <label for="age">AGE</label><br>
+                    <input type="text" id="text">
+                </div>
+                <div class="one">
+                    <label for="age">WEIGHT(KG)</label><br>
+                    <input type="text" id="wt">
+                </div>
+                <div class="one">
+                    <label for="age">HEIGHT(CM)</label><br>
+                    <input type="text" id="ht">
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="button"><button id="myButton" onclick="calculate()">CACLULATE</button></div><br>
+            <div><label for="" id="answer"></label></div>
+            <div><label for="" id="hi"></label></div>
+            <script src="index.js"></script>
+        </div>
+    </div>
+</body>
+</html>
